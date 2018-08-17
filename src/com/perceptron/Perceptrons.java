@@ -46,11 +46,11 @@ public class Perceptrons {
         else {
         	//update the parameter
         	for (int i = 0; i < nIn; i++) {
-        		w[i] += learningRate * (t - c) * x[i];
+        		w[i] += learningRate * (t - activatedVal) * x[i];
         	}
         	
         	// update the bias
-        	bias += learningRate * (t - c);
+        	bias += learningRate * (t - activatedVal);
         }
         
         return classified;
