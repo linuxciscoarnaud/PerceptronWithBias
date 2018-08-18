@@ -11,3 +11,5 @@ Les données d'entrainement et ceux de test sont generées de telle sorte qu'ell
 Puis la prochaine étape consiste en l'entrainement proprement dite. Le programme procède par itération de l'apprentissage qui ne prendra fin que lorsque les deux évènements suivant vont se présenter:
 - Le nombre d'apprentissage préalablement établi est atteind
 - Toutes les données d'entrainement sont correctement classifiées
+
+Enfin le programme se termine par le test, puis l'évaluation de la performance de l'algorithme en faisant usage de la matrice de confusion.
